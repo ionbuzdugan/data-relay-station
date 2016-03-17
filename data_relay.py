@@ -41,7 +41,6 @@ db_type = (
         ('B', 'gpsStatus'),
         ('B', 'batteryLevel'),
         ('B', 'waypointCount'),
-	('B', 'airspeed'),
         #('x', 'one byte of padding'),
         )
 
