@@ -63,6 +63,7 @@ command_types = {
     'drop_probe':    	        {'cmd':56,  'type':'B'},
     'reset_probe':		        {'cmd':57,  'type':'B'},
     'follow_path':              {'cmd':58,  'type':'B'},
+    'set_wingTilt':             {'cmd':59, 'type': 'f'}
 }
 
 multipart_command_types = {
