@@ -70,6 +70,7 @@ command_types = {
     'reset_probe':		        {'cmd':57,  'type':'B'},
     'follow_path':              {'cmd':58,  'type':'B'},
     'show_scaled_pwm':          {'cmd':60,  'type':'B'},
+    'calibrate_IMU':            {'cmd':61,  'type':'d'},
 }
 
 multipart_command_types = { # append pad bytes so all waypoint commands are the same size
